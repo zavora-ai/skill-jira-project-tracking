@@ -1,34 +1,9 @@
 ---
 name: jira-project-tracking
 description: Orchestrate Jira workflows — search issues with JQL, manage sprints, create and transition issues, track velocity, and coordinate agile ceremonies. Use when creating Jira tickets, searching issues, planning sprints, updating issue status, checking sprint progress, or managing project boards.
-version: "1.0.0"
 license: Apache-2.0
 compatibility: Requires mcp-jira server connected. Optional: mcp-github for PR linking, mcp-slack for sprint notifications.
-allowed-tools:
-  - list_projects
-  - get_project
-  - search_issues
-  - get_issue
-  - create_issue
-  - update_issue
-  - transition_issue
-  - assign_issue
-  - add_comment
-  - list_comments
-  - get_transitions
-  - list_sprints
-  - create_sprint
-  - add_to_sprint
-  - get_board
-tags:
-  - business
-  - jira
-  - agile
-  - sprints
-  - project-management
-references:
-  - references/tool-sequences.md
-  - references/examples.md
+allowed-tools: [list_projects, get_project, search_issues, get_issue, create_issue, update_issue, transition_issue, assign_issue, add_comment, list_comments, get_transitions, list_sprints, create_sprint, add_to_sprint, get_board]
 metadata:
   author: Zavora AI
   mcp-server: mcp-jira
